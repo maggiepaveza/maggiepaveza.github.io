@@ -1,0 +1,205 @@
+/* Caitlin's CSS */
+body {
+	background-image: url('../photos/brillant.png');
+	background-repeat: repeat;
+	font-family: 'Oswald';
+}
+
+.top-black-bar {
+	background-color: #000;
+	height:8px;
+}
+
+.blackbox {
+	height:30px;
+	width:50px;
+	background-color: #000;
+}
+
+a {
+	font-family: 'Oswald';
+}
+
+.fontType{
+	font-family: 'Oswald';
+}
+
+.ind_bio {
+	margin-top: -0.1em;
+}
+
+#bio_img {
+	width: 320px;
+	height: 320px;
+	border-radius: 10px;
+}
+
+.member_img {
+	width: 320px;
+	height: 320px;
+	border-radius: 10px;
+}
+
+.hr {
+	margin-top: -0.8em;
+	width: 15%;
+	border-color: #990000;
+}
+
+.hrsmall {
+	width: 70%;
+	margin-left: 0.0em;
+	margin-top: -0.5em;
+	border-color: #990000;
+}
+
+.hrfooter{
+	border-color: #990000;
+	width: 100%;
+	/*margin-bottom: -0.5em;*/
+}
+
+.alignLeft {
+	float: left;
+}
+.alignRight {
+	float: right;
+}
+
+/* MAKE THIS WORK */
+.footerAlign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.tagline {
+	color: #990000;
+	font-family: 'Oswald';
+
+}
+/**/ 
+
+/* Music Page */
+.musicplayer {
+	padding-left:100px;
+}
+
+.musicplayer iframe {
+	margin-bottom: 90px;
+}
+
+.navbar-link {
+	color: #000 !important;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	margin-left: 14px;
+	 text-decoration: none;
+	  list-style-type: none;
+}
+.menu-top {
+  text-decoration: none;
+   list-style-type: none;	
+}
+.navbar-link .navbar-text .menu-top ul li a:hover,
+.navbar-link .navbar-text .menu-top  ul li a.active {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+}
+.navbar-link .navbar-text .menu-top ul li.current-menu-item a {
+  text-decoration: none;
+  border-bottom: 3px solid red;
+}
+
+#logo {
+    margin-top: -1.0em;
+}
+
+.MainNav {
+    margin: 13px;
+}
+
+#socialmedia {
+    margin-top: -0.8em;
+}
+
+/* Photos */
+.gallery {
+	width:90%;
+	padding-left: 100px;
+
+}
+
+.potrait {
+	height:450px;
+	width:310px;
+}
+
+.landscape {
+	height:200px;
+	width:310px;
+}
+
+.landscape-1 {
+	height:250px;
+	width:310px;
+}
+.pictures {
+	padding-bottom: 8px;
+}
+
+.huge {
+	width:628px;
+	height: 400px;
+
+}
+
+.potrait-1 {
+	height:405px;
+	width:310px;
+}
+
+#photo {
+	font-family: 'Oswald';
+	float: right;
+	margin-right: 110px;
+}
+.title span:before {
+  right: 100%;
+  margin-right: 20px;
+}
+
+.title span:after {
+  left: 100%;
+  margin-left: 20px;
+}
+
+.title span:before, .title span:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  border-bottom: 4px solid #232020;
+  border-top: 4px solid #232020;
+  top: 23px;
+  margin-top:300px;
+  width: 600px;
+}
+
+.title {
+	text-transform: uppercase !important;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700 !important;
+
+	color: #232020 !important;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+    color: #000000;
+}
