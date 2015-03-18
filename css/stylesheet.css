@@ -4,6 +4,11 @@ body {
 	font-family: 'Oswald';
 }
 
+#index-image {
+	width: 100%;
+	height: auto;
+}
+
 #bookus {
 	width:280px;
 	margin-left: auto;
